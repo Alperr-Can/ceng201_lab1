@@ -75,11 +75,9 @@ public class track {
 
     @Override
     public String toString() {
-        String result = "\" " + title + "by " + artist + getDurationFormatted() + getIsExplicit();
         if (this.isExplicit) {
             result += " (Explicit)";
         }
-        return "";
     }
 
 }
